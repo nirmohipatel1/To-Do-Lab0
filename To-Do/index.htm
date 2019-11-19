@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nirmohi">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do List</title>
+    <style>
+        #add {
+            width: 1rem;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form action="/" method="get">
+            <label for="label">Add a To-Do</label>
+            <input id="label" type="text" name="label">
+            <input id="add" type="image" src="img/index.svg" alt="Add a ToDo List">
+        </form>
+        <form action="/" method="get">
+            <ul id="list">
+                
+            </ul>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    <template id="item">
+        <li>
+            <input id="select" type="checkbox" name="select">
+            <label for="select"></label>
+        </li>
+    </template>
+    <script src="js/index.js"></script>
+</body>
+</html>
